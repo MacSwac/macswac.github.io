@@ -43,7 +43,7 @@ Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, tur
 
 | Title 1          | Title 2          | Title 3         | Title 4         |
 |------------------|------------------|-----------------|-----------------|
-| First entry      | Second entry     | Third entry     | Fourth entry    |
+| ![Flower](https://user-images.githubusercontent.com/4943215/55412447-bcdb6c80-5567-11e9-8d12-b1e35fd5e50c.jpg)      | Second entry     | Third entry     | Fourth entry    |
 | Fifth entry      | Sixth entry      | Seventh entry   | Eight entry     |
 | Ninth entry      | Tenth entry      | Eleventh entry  | Twelfth entry   |
 | Thirteenth entry | Fourteenth entry | Fifteenth entry | Sixteenth entry |
