@@ -1,0 +1,50 @@
+```html
+---
+layout: post
+title: "Example Post With Images and Text"
+---
+
+<table>
+<tr>
+
+<td style="width:35%; vertical-align:top;">
+
+<img src="{{ '/assets/images/DefaultIkkei.jpg' | relative_url }}"
+     style="width:100%; max-width:250px; border-radius:8px;">
+
+</td>
+
+<td style="padding-left:20px; vertical-align:top;">
+
+## First Section
+
+This is an example paragraph next to an image.
+
+You can write as much text here as you want. The image stays nicely sized while the text fills the remaining width.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="width:35%; vertical-align:top; padding-top:20px;">
+
+<img src="{{ '/assets/images/DefaultIkkei.jpg' | relative_url }}"
+     style="width:100%; max-width:250px; border-radius:8px;">
+
+</td>
+
+<td style="padding-left:20px; vertical-align:top; padding-top:20px;">
+
+## Second Section
+
+Another image with accompanying text.
+
+This layout works well with the Contrast theme and avoids the tiny-image problem common in Markdown tables.
+
+</td>
+
+</tr>
+</table>
+```
