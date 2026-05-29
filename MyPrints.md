@@ -16,7 +16,11 @@ permalink: /travel/
 
 <img src="{{ post.image | relative_url }}"
      style="width:100%; max-width:240px; border-radius:8px;">
+</td>
 
+<td style="width:140px; vertical-align:top; padding-left:20px; padding-bottom:30px;">
+
+{{ post.printingdate }}
 </td>
 
 <td style="vertical-align:top; padding-left:20px; padding-bottom:30px;">
@@ -33,7 +37,7 @@ permalink: /travel/
 
 <td style="width:140px; vertical-align:top; padding-left:20px; padding-bottom:30px;">
 
-{{ post.printingdate }}
+{{ post.complete }}
 
 </td>
 
