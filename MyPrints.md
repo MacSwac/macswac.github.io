@@ -7,7 +7,7 @@ permalink: /MyPrints/
 
 <table style="width:100%; border-collapse:collapse;">
 
-{% for post in site.travel %}
+{% for post in site.MyPrints %}
 
 <tr>
 
