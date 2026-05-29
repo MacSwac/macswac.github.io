@@ -1,50 +1,46 @@
 ```html
 ---
 layout: post
-title: "Example Post With Images and Text"
+title: "Better Image Layout"
 ---
 
-<table>
-<tr>
+<div style="display:flex; gap:24px; align-items:flex-start; margin-bottom:40px; flex-wrap:wrap;">
 
-<td style="width:35%; vertical-align:top;">
-
+<div style="flex:0 0 250px;">
 <img src="{{ '/assets/images/DefaultIkkei.jpg' | relative_url }}"
-     style="width:100%; max-width:250px; border-radius:8px;">
+     style="width:100%; border-radius:10px;">
+</div>
 
-</td>
-
-<td style="padding-left:20px; vertical-align:top;">
+<div style="flex:1; min-width:250px;">
 
 ## First Section
 
-This is an example paragraph next to an image.
+This layout looks much cleaner than tables.
 
-You can write as much text here as you want. The image stays nicely sized while the text fills the remaining width.
+The image keeps a reasonable size while the text flows naturally beside it.
 
-</td>
+Because it wraps on smaller screens, it also behaves much better on mobile.
 
-</tr>
+</div>
 
-<tr>
+</div>
 
-<td style="width:35%; vertical-align:top; padding-top:20px;">
+<div style="display:flex; gap:24px; align-items:flex-start; margin-bottom:40px; flex-wrap:wrap;">
 
+<div style="flex:0 0 250px;">
 <img src="{{ '/assets/images/DefaultIkkei.jpg' | relative_url }}"
-     style="width:100%; max-width:250px; border-radius:8px;">
+     style="width:100%; border-radius:10px;">
+</div>
 
-</td>
-
-<td style="padding-left:20px; vertical-align:top; padding-top:20px;">
+<div style="flex:1; min-width:250px;">
 
 ## Second Section
 
-Another image with accompanying text.
+You can repeat this block throughout the article.
 
-This layout works well with the Contrast theme and avoids the tiny-image problem common in Markdown tables.
+This is generally the best-looking approach for minimalist Jekyll blogs.
 
-</td>
+</div>
 
-</tr>
-</table>
+</div>
 ```
