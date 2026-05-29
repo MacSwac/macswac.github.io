@@ -1,46 +1,32 @@
-```html
+```html id="m7e3kk"
 ---
 layout: post
-title: "Better Image Layout"
+title: "Example Post"
 ---
 
-<div style="display:flex; gap:24px; align-items:flex-start; margin-bottom:40px; flex-wrap:wrap;">
-
-<div style="flex:0 0 250px;">
 <img src="{{ '/assets/images/DefaultIkkei.jpg' | relative_url }}"
-     style="width:100%; border-radius:10px;">
-</div>
-
-<div style="flex:1; min-width:250px;">
+     style="width:220px; float:left; margin-right:20px; margin-bottom:10px; border-radius:8px;">
 
 ## First Section
 
-This layout looks much cleaner than tables.
+This works much better with the Contrast theme because the text remains part of the normal article flow.
 
-The image keeps a reasonable size while the text flows naturally beside it.
+You can write normally here and the image stays aligned to the left.
 
-Because it wraps on smaller screens, it also behaves much better on mobile.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
-</div>
+<br style="clear:both;">
 
-</div>
+---
 
-<div style="display:flex; gap:24px; align-items:flex-start; margin-bottom:40px; flex-wrap:wrap;">
-
-<div style="flex:0 0 250px;">
 <img src="{{ '/assets/images/DefaultIkkei.jpg' | relative_url }}"
-     style="width:100%; border-radius:10px;">
-</div>
-
-<div style="flex:1; min-width:250px;">
+     style="width:220px; float:left; margin-right:20px; margin-bottom:10px; border-radius:8px;">
 
 ## Second Section
 
-You can repeat this block throughout the article.
+This layout keeps the minimalist appearance of the theme while still allowing image-and-text sections.
 
-This is generally the best-looking approach for minimalist Jekyll blogs.
+It also behaves much more predictably on GitHub Pages.
 
-</div>
-
-</div>
+<br style="clear:both;">
 ```
