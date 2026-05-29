@@ -1,6 +1,7 @@
+---
 title: "Travel"
 layout: default
-permalink: /MyPrints/
+permalink: /travel/
 ---
 
 # Travel
@@ -25,6 +26,14 @@ permalink: /MyPrints/
 {{ post.title }}
 </a>
 </h2>
+
+<p>{{ post.description }}</p>
+
+</td>
+
+<td style="width:140px; vertical-align:top; padding-left:20px; padding-bottom:30px;">
+
+{{ post.date }}
 
 </td>
 
