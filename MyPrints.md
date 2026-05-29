@@ -23,7 +23,7 @@ permalink: /travel/
 {{ post.printingdate }}
 </td>
 
-<td style="vertical-align:top; padding-left:20px; padding-bottom:30px;">
+<td style="width:200px; vertical-align:top; padding-left:20px; padding-bottom:30px;">
 
 <h2 style="margin-top:0;">
 <a href="{{ post.url | relative_url }}">
