@@ -33,7 +33,7 @@ permalink: /travel/
 
 <td style="width:140px; vertical-align:top; padding-left:20px; padding-bottom:30px;">
 
-{{ post.date }}
+{{ post.printingdate }}
 
 </td>
 
