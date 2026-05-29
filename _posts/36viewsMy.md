@@ -7,7 +7,7 @@ categories: media
 
 | Picture          | Title |
 |------------------|------------------|
-| ![Flower]     | Some place in Tokyo    | Third entry     | Fourth entry    |
+| ![Flower](assets/images/DefaultIkkei.jpg)     | Some place in Tokyo    | Third entry     | Fourth entry    |
 | Fifth entry      | Sixth entry      
 
 ## MathJax
