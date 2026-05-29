@@ -1,13 +1,13 @@
 ---
-title: "My Prints"
+title: "Archive"
 layout: default
-permalink: /MyPrints/
 ---
 
-# Travel
-
-{% for post in site.MyPrints %}
-  <div>
-    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-  </div>
-{% endfor %}
+<main>
+  <header><h1>{{ include.title | default: page.title }}</h1></header>
+  <nav class="smooth">
+    {% for post in site.MyPrints %}
+    <div><a href="{{ post.url | relative_url }}">{{ post.title }}</a></div>
+    {% endfor %}
+  </nav>
+</main>
