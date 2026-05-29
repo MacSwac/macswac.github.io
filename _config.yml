@@ -6,6 +6,12 @@ lang: "en"
 excerpt_separator: "\n\n\n"
 date_format: "%B %d, %Y"
 
+collections:
+  Ikkei:
+    output: true
+  MyPrints:
+    output: true
+
 # Layout
 
 show_excerpts: false             # show article excerpts instead of archive list on the home page
