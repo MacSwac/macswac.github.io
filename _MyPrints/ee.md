@@ -2,7 +2,7 @@
 title: Ring Road
 layout: post
 country: Iceland
-image: /assets/images/ring-road.jpg
+image: /assets/images/IkkeiDefault.jpg
 description: A full circuit around Iceland's Route 1.
 ---
 
