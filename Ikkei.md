@@ -19,7 +19,7 @@ permalink: /Ikkei/
      style="width:100%; min-width:250px;max-width:500px; border-radius:8px;">
 
 </td>
-<p>{{ series.date }}</p>
+<p>{{ series.printingdate }}</p>
 </td>
 
 <td style="vertical-align:top; padding-left:20px;">
