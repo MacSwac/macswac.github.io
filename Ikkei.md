@@ -19,8 +19,10 @@ permalink: /Ikkei/
      style="width:100%; min-width:250px;max-width:500px; border-radius:8px;">
 
 </td>
+</td>
 <p>{{ series.printingdate }}</p>
 </td>
+
 
 <td style="vertical-align:top; padding-left:20px;">
 
@@ -33,6 +35,7 @@ permalink: /Ikkei/
 <p>{{ series.description }}</p>
 
 
+</td>
 </td>
 <p>{{ series.complete}}</p>
 
