@@ -5,7 +5,7 @@ permalink: /MyPrints/01_36views/
 image: /assets/images/DefaultIkkei.jpg
 description: A small series
 complete: No
-date: unknown
+printingdate: unknown
 series: 01_36viewsTokyo
 ---
 
