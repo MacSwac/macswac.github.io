@@ -29,8 +29,8 @@ show_minimal: false             # remove all clutter
 
 navigation:                     # accepts {file, title, url, icon, sidebaricon}
   - {file: "archive.html", sidebaricon: home}
-  - {file: "Ikkei.md", sidebaricon: twitter}
-  - {file: "MyPrints.md", sidebaricon: twitter}
+  - {file: "Ikkei.md", sidebaricon: brush}
+  - {file: "MyPrints.md", sidebaricon: book}
   - {file: "README.md", sidebaricon: address-card}
 
 external:                       # accepts {file, title, url, icon, sidebaricon}
