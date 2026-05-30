@@ -1,11 +1,21 @@
 ---
-title: "Kyoto Trip"
+title: Reawea
 layout: post
-image: "/assets/images/DefaultIkkei.jpg"
-description: "A small chuban version"
-printingdate: 18700
-complete: "No"
-country: "Japan"
+country: Iceland
+image: /assets/images/DefaultIkkei.jpg
+description: A full circuit around Iceland's Route 1.
 ---
 
-Travel content here.
+# Ring Road
+
+This trip followed Iceland's Ring Road around the entire island.
+
+## Highlights
+
+- Seljalandsfoss
+- Skógafoss
+- Jökulsárlón
+- Mývatn
+- Snæfellsnes
+
+More text here.
