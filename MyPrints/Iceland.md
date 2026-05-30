@@ -3,7 +3,7 @@ layout: default
 title: Japan
 country: Iceland
 ---
-
+eee
 <table>
 
 {% assign posts = site.Myprints | where: "country", page.country %}
