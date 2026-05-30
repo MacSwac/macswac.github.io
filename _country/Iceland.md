@@ -10,7 +10,7 @@ description: Volcanoes, glaciers, waterfalls and long road trips.
 
 <table style="width:100%; border-collapse:collapse;">
 
-{% assign trips = site.travel | where: "country", "Iceland" %}
+{% assign trips = site.MyPrints | where: "country", "Iceland" %}
 
 {% for post in trips %}
 
