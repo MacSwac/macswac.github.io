@@ -1,37 +1,21 @@
 ---
-title: "Pup"
+title: Ring Road
 layout: post
-image: "/assets/images/DefaultIkkei.jpg"
-description: "A small chuban version"
-printingdate: "18700"
-complete: "No"
-country: "Iceland"
+country: Iceland
+image: /assets/images/ring-road.jpg
+description: A full circuit around Iceland's Route 1.
 ---
 
+# Ring Road
 
+This trip followed Iceland's Ring Road around the entire island.
 
-<table>
+## Highlights
 
-{% assign posts = site.MyPrints | where: "country", page.country %}
+- Seljalandsfoss
+- Skógafoss
+- Jökulsárlón
+- Mývatn
+- Snæfellsnes
 
-{% for post in posts %}
-
-<tr>
-  <td>
-    <img src="{{ post.image | relative_url }}" width="200">
-  </td>
-
-  <td>
-    <a href="{{ post.url | relative_url }}">
-      {{ post.title }}
-    </a>
-  </td>
-
-  <td>
-    {{ post.description }}
-  </td>
-</tr>
-
-{% endfor %}
-
-</table>
+More text here.
