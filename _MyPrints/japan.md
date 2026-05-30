@@ -5,6 +5,7 @@ image: "/assets/images/DefaultIkkei.jpg"
 description: "A small chuban version"
 printingdate: 18700
 complete: "No"
+country: "Japan"
 ---
 
 Travel content here.
