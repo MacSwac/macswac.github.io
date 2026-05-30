@@ -33,7 +33,7 @@ series: 01_36viewsTokyo
 {{ post.title }}
 </a>
 </h2>
-
+<p> {{ post.en_title }}</p>
 
 </td>
 <td style="width:180px; vertical-align:top; padding-left:20px; padding-bottom:30px;">
