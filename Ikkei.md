@@ -34,10 +34,6 @@ permalink: /Ikkei/
 <td style="width:180px; vertical-align:top; padding-left:20px; padding-bottom:30px;">
 
 <p><strong>Date:</strong> {{ series.printingdate }}</p>
-</td>
-
-<td style="width:180px; vertical-align:top; padding-left:20px; padding-bottom:30px;">
-
 
 <p><strong>Complete:</strong> {{ series.complete }}</p>
 
