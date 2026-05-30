@@ -5,26 +5,21 @@ permalink: /Ikkei/
 ---
 
 # The prints of Ikkei Shosai
+
 <table style="width:100%; border-collapse:collapse;">
 
 {% for series in site.series %}
 
 <tr>
 
-
-
 <td style="width:260px; vertical-align:top; padding-bottom:30px;">
 
 <img src="{{ series.image | relative_url }}"
-     style="width:100%; min-width:250px;max-width:500px; border-radius:8px;">
+     style="width:100%; min-width:250px; max-width:500px; border-radius:8px;">
 
 </td>
-</td>
-<p>{{ series.printingdate }}</p>
-</td>
 
-
-<td style="vertical-align:top; padding-left:20px;">
+<td style="vertical-align:top; padding-left:20px; padding-bottom:30px;">
 
 <h2>
 <a href="{{ series.url | relative_url }}">
@@ -34,13 +29,16 @@ permalink: /Ikkei/
 
 <p>{{ series.description }}</p>
 
+</td>
+
+<td style="width:180px; vertical-align:top; padding-left:20px; padding-bottom:30px;">
+
+<p><strong>Date:</strong> {{ series.printingdate }}</p>
+
+<p><strong>Complete:</strong> {{ series.complete }}</p>
 
 </td>
-</td>
-<p>{{ series.complete}}</p>
 
-
-</td>
 </tr>
 
 {% endfor %}
