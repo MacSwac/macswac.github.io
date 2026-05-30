@@ -11,8 +11,6 @@ permalink: /Ikkei/
 
 <tr>
 
-</td>
-<p>{{ series.date }}</p>
 
 
 <td style="width:260px; vertical-align:top; padding-bottom:30px;">
@@ -20,6 +18,8 @@ permalink: /Ikkei/
 <img src="{{ series.image | relative_url }}"
      style="width:100%; min-width:250px;max-width:500px; border-radius:8px;">
 
+</td>
+<p>{{ series.date }}</p>
 </td>
 
 <td style="vertical-align:top; padding-left:20px;">
