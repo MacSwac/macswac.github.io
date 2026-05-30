@@ -4,8 +4,7 @@ layout: default
 permalink: /Ikkei/
 ---
 
-# Travel
-
+# The prints of Ikkei Shosai
 <table style="width:100%; border-collapse:collapse;">
 
 {% for series in site.series %}
