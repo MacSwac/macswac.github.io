@@ -1,4 +1,9 @@
-{% assign countries = site.travel | group_by: "country" %}
+---
+title: "My Prints"
+layout: default
+permalink: /Ikkei/
+---
+{% assign countries = site.MyPrints | group_by: "country" %}
 
 {% for country in countries %}
   <tr>
