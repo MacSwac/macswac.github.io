@@ -1,50 +1,37 @@
 ---
-title: "Kyoto Trip"
+title: "Pup"
 layout: post
 image: "/assets/images/DefaultIkkei.jpg"
 description: "A small chuban version"
 printingdate: "18700"
 complete: "No"
+country: "Iceland"
 ---
 
-# My Example Post
 
-TEXTEXTET
 
-<table style="width:100%; border-collapse:collapse;">
+<table>
 
-<tr>
+{% assign posts = site.MyPrints | where: "country", page.country %}
 
-<td style="width:260px; vertical-align:top; padding-right:20px;">
-
-<img src="{{ '/assets/images/DefaultIkkei.jpg' | relative_url }}"
-     style="width:100%; min-width:400px;max-width:500px; border-radius:8px;">
-
-</td>
-
-<td style="vertical-align:top;">
-
-TEXTEXTXE
-
-</td>
-
-</tr>
+{% for post in posts %}
 
 <tr>
+  <td>
+    <img src="{{ post.image | relative_url }}" width="200">
+  </td>
 
-<td style="width:260px; vertical-align:top; padding-top:25px; padding-right:20px;">
+  <td>
+    <a href="{{ post.url | relative_url }}">
+      {{ post.title }}
+    </a>
+  </td>
 
-<img src="{{ '/assets/images/DefaultIkkei.jpg' | relative_url }}"
-     style="width:100%;min-width:400px; max-width:500px; border-radius:8px;">
-
-</td>
-
-<td style="vertical-align:top; padding-top:25px;">
-
-xdfcgvhbjnkhgcvhbjnkmlkjhvgcfghjkl;jhgfdghjkl;kjh gfcfhjkl;kjhg fhjkl;lojihugyftdfyguhijopiouhav iohiruqgk, aiyg iagkyg ioug iag iy ohogiu 
-
-</td>
-
+  <td>
+    {{ post.description }}
+  </td>
 </tr>
+
+{% endfor %}
 
 </table>
