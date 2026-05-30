@@ -38,9 +38,9 @@ series: 01_36viewsTokyo
 </td>
 <td style="width:180px; vertical-align:top; padding-left:20px; padding-bottom:30px;">
 
-<p><strong>Date:</strong> {{ post.notes }}</p>
+<p> {{ post.notes }}</p>
 
-<p><strong>Date:</strong> {{ post.source }}</p>
+<p><strong>Source:</strong> {{ post.source }}</p>
 </td>
 </tr>
 
