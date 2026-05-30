@@ -34,9 +34,10 @@ series: 01_36viewsTokyo
 </a>
 </h2>
 
-<p>{{ post.notes }}</p>
 
 </td>
+<p>{{ post.notes }}</p>
+
 <p>{{ post.source }}</p>
 </td>
 </tr>
