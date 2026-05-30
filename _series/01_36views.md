@@ -4,8 +4,8 @@ layout: default
 permalink: /MyPrints/01_36views/
 image: /assets/images/DefaultIkkei.jpg
 description: A small series
-completeseries: No
-date: ?
+complete: No
+date: unknown
 series: 01_36viewsTokyo
 ---
 
@@ -13,7 +13,7 @@ series: 01_36viewsTokyo
 
 <table style="width:100%; border-collapse:collapse;">
 
-{% assign prints = site. | where: "series", "01_36viewsTokyo" %}
+{% assign prints = site.Ikkei | where: "series", "01_36viewsTokyo" %}
 
 {% for post in prints %}
 
