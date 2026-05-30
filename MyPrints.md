@@ -8,7 +8,7 @@ permalink: /MyPrints/
 
 <table style="width:100%; border-collapse:collapse;">
 
-{% for country in site.contry %}
+{% for country in site.country %}
 
 <tr>
 
