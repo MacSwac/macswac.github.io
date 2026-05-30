@@ -1,7 +1,12 @@
 ---
 title: "36 views of Tokyo"
-layout: default
+layout: post
 permalink: /Ikkei/0136views
+image: "/assets/images/DefaultIkkei.jpg"
+description: "A small chuban version"
+printingdate: "18700"
+complete: "No"
+---
 ---
 
 # The 36 views of Tokyo
