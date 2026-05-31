@@ -10,7 +10,7 @@ series: 01_36comicTokyo
 ---
 
 # 36 comic views of Tokyo
-
+Since these prints are not numbered through, the ordering is somewhat arbitrary. I found one source online with all of the prints bound in an album that looks somewhat original and decided to use that ordering. However, there is no good evidence that that is the "correct" ordering if there ever was one. I have also not found a title page print.
 <table style="width:100%; border-collapse:collapse;">
 
 {% assign prints = site.Ikkei | where: "series", "01_36comicTokyo" %}
