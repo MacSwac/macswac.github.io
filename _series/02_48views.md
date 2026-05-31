@@ -9,7 +9,7 @@ printingdate: unknown
 series: 02_48viewsTokyo
 ---
 
-# 36 views of Tokyo
+# 48 views of Tokyo
 
 <table style="width:100%; border-collapse:collapse;">
 
