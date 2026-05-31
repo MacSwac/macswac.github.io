@@ -11,7 +11,7 @@ series: 02_48viewsTokyo
 
 # 48 views of Tokyo
 
-Here is one of Ikkei's most celebrated series, 48 views of Tokyo. The numbering of these prints is not yet fully determined, as some of the prints in the main source for this, the Tokyo Metropolitan Library, have had their margins cut, so the number is missing. For some, it was however, possible to assign a number from other sources (Edo Tokyo, Harashobu). The known prints with unknown number are below the numbered ones here. There are some prints missing as these do not make up 48+title page.
+Here is one of Ikkei's most celebrated series, 48 views of Tokyo. The numbering of these prints is not yet fully determined, as some of the prints in the main source for this, the Tokyo Metropolitan Library, have had their margins cut, so the number is missing. For some, it was however, possible to assign a number from other sources (Edo Tokyo, Harashobu). The known prints with unknown number are below the numbered ones here. There are some prints missing as these do not make up 48+title page. The title page has the prints in order but I haven't found the time to yet examine the kanjis and sort out the numbering. 
 
 <table style="width:100%; border-collapse:collapse;">
 
