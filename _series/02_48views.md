@@ -2,7 +2,7 @@
 title: 48 views of Tokyo 
 layout: default
 permalink: /MyPrints/02_48views/
-image: /assets/images/0248Ikkei/Ikkei1.jpg
+image: /assets/images/0248views/Ikkei1.jpg
 description: A bigger series
 complete: "No"
 printingdate: unknown
