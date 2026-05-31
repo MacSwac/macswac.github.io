@@ -6,7 +6,7 @@ image: /assets/images/0336comic/Ikkei2.jpg
 description: A small series
 complete: "No"
 printingdate: unknown
-series: 01_36comicTokyo
+series: 03_36comicTokyo
 ---
 
 # 36 comic views of Tokyo
