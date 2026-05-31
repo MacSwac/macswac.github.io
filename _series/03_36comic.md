@@ -2,7 +2,7 @@
 title: 36 comic views of Tokyo 
 layout: default
 permalink: /MyPrints/03_36comic/
-image: /assets/images/0336comic/Ikkei1.jpg
+image: /assets/images/0336comic/Ikkei2.jpg
 description: A small series
 complete: "No"
 printingdate: unknown
