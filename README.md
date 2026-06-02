@@ -4,6 +4,11 @@ permalink: "/about/"
 layout: page
 ---
 
+WICHRTIG: bundle exec jekyll serve
+git add -A
+git commit -m "Commit message"
+git push
+
 ## Github Pages
 
 Just fork this [repository](https://github.com/niklasbuschmann/contrast) to `your_username.github.io` and adjust the `_config.yml` to use with [Github Pages](https://pages.github.com/) and your page is done.
