@@ -1,19 +1,19 @@
 ---
-title: 36 views of Tokyo 
+title: 12 Months
 layout: default
-permalink: /MyPrints/01_36views/
-image: /assets/images/DefaultIkkei.jpg
-description: 36 views of famous places in Tokyo
-complete: "No"
+permalink: /Ikkei/10TwelveMonths/
+image: /assets/images/10TwelveMonths/Ikkei11.jpg
+description: A small series with 12 (?) famous spots in Tokyo represented by one of the months/
+complete: "1/12(?)"
 printingdate: unknown
-series: 01_36viewsTokyo
+series: 10_TwelveMonths
 ---
 
-# 36 views of Tokyo
+# 12 Months
 
 <table style="width:100%; border-collapse:collapse;">
 
-{% assign prints = site.Ikkei | where: "series", "01_36viewsTokyo" %}
+{% assign prints = site.Ikkei | where: "series", "10_TwelveMonths" %}
 
 {% for post in prints %}
 
@@ -47,3 +47,4 @@ series: 01_36viewsTokyo
 {% endfor %}
 
 </table>
+e

@@ -3,14 +3,14 @@ title: 36 comic views of Tokyo
 layout: default
 permalink: /MyPrints/03_36comic/
 image: /assets/images/0336comic/Ikkei2.jpg
-description: A small series
+description: Scenes of funny things happening at famous places in  Tokyo
 complete: "No"
 printingdate: unknown
 series: 03_36comicTokyo
 ---
 
 # 36 comic views of Tokyo
-Since these prints are not numbered through, the ordering is somewhat arbitrary. I found one source online with all of the prints bound in an album that looks somewhat original and decided to use that ordering. However, there is no good evidence that that is the "correct" ordering if there ever was one. I have also not found a title page print.
+Since these prints are not numbered through, the ordering is somewhat arbitrary. I found one source online with all of the prints bound in an album that looks somewhat original and decided to use that ordering. However, there is no good evidence that that is the "correct" ordering if there ever was one. I have also not found a title page print. Also, I found one source claming the existence of 37 of these prints. 
 <table style="width:100%; border-collapse:collapse;">
 
 {% assign prints = site.Ikkei | where: "series", "03_36comicTokyo" %}

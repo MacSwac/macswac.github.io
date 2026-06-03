@@ -1,19 +1,19 @@
 ---
-title: 36 views of Tokyo 
+title: Miscellaneous prints
 layout: default
-permalink: /MyPrints/01_36views/
-image: /assets/images/DefaultIkkei.jpg
-description: 36 views of famous places in Tokyo
+permalink: /MyPrints/30misc/
+image: /assets/images/30misc/Ikkei_women-demon.jpg
+description: Miscellaneous prints
 complete: "No"
 printingdate: unknown
-series: 01_36viewsTokyo
+series: 30_misc
 ---
 
-# 36 views of Tokyo
+# Miscellaneous prints
 
 <table style="width:100%; border-collapse:collapse;">
 
-{% assign prints = site.Ikkei | where: "series", "01_36viewsTokyo" %}
+{% assign prints = site.Ikkei | where: "series", "30_misc" %}
 
 {% for post in prints %}
 

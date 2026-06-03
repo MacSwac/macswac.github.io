@@ -1,19 +1,20 @@
 ---
-title: 36 views of Tokyo 
+title: Good and Evil Houses/Lessons
 layout: default
-permalink: /MyPrints/01_36views/
-image: /assets/images/DefaultIkkei.jpg
-description: 36 views of famous places in Tokyo
+permalink: /Ikkei/08GoodEvil/
+image: /assets/images/08GoodEvil/Ikkei11.jpg
+description: 
 complete: "No"
 printingdate: unknown
-series: 01_36viewsTokyo
+series: 08GoodEvil
 ---
 
-# 36 views of Tokyo
+# Good and Evil Houses/Lessons
 
+This seems to be a picturebook with at least 12 pages (2 prints per page). They have quite varied coloration, as can be seen by comparing entry 11 and 12. I purposely did not cut up the pictures to only include the correct pages, to keep the full images.ss
 <table style="width:100%; border-collapse:collapse;">
 
-{% assign prints = site.Ikkei | where: "series", "01_36viewsTokyo" %}
+{% assign prints = site.Ikkei | where: "series", "08GoodEvil" %}
 
 {% for post in prints %}
 
