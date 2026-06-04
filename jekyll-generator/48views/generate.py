@@ -77,7 +77,7 @@ layout: post
 series: 02_48viewsTokyo
 image: {image}
 description:
-source: Tokyo Metropolitan Library
+source: {row['source']}
 ---
 
 {{% if page.image %}}

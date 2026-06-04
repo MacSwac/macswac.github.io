@@ -26,23 +26,27 @@ with open("prints.csv", encoding="utf-8") as f:
         if not title:
             continue
 
-        filename = f"{(i-1):03d}-{slugify(title)}.md"
+        filename = f"{i:03d}-{slugify(title)}.md"
 
-        image = f"/assets/images/0336comic/Ikkei{i-1}.jpg"
+        image = f"/assets/images/15Triptychs/Ikkei{i}.jpg"
 
         content = f"""---
-title: {(i-1):03d}-{title}
-en_title: {row['en_title']}
+title:\"{i:03d}-{title}\" 
+en_title:\"{row['en_title']}\" 
 layout: post
-series: 03_36comicTokyo
+series: 15Triptychs
 image: {image}
-description:
-source: {row['source']}
+description: \"{row['description']}\" 
+source: \"{row['source']}\" 
+printing_date: {row['date']}
 ---
 
 {{% if page.image %}}
 <img src="{{{{ page.image | relative_url }}}}">
 {{% endif %}}
+
+{row['textstuff']}
+link: {row['link']}
 """
 
         with open(outdir / filename, "w", encoding="utf-8") as out:
@@ -68,22 +72,27 @@ with open("prints_unknown.csv", encoding="utf-8") as f:
 
         filename = f"{unknown_number:03d}-{slug}.md"
 
-        image = f"/assets/images/0336comic/Ikkei_{slug}.jpg"
+        image = f"/assets/images/15Triptychs/Ikkei_{slug}.jpg"
 
         content = f"""---
-title: {title}
-en_title: {row['en_title']}
+title: \"{title}\" 
+en_title: \"{row['en_title']}\" 
 layout: post
-series: 03_36comicTokyo
+series: 15Triptychs
 image: {image}
-description:
-source: {row['source']}
+description: \"{row['description']}\" 
+source: \"{row['source']}\" 
 printing_date: {row['date']}
 ---
 
 {{% if page.image %}}
 <img src="{{{{ page.image | relative_url }}}}">
 {{% endif %}}
+
+
+{row['textstuff']}
+
+link: {row['link']}
 """
 
         with open(outdir / filename, "w", encoding="utf-8") as out:

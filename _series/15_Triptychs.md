@@ -1,19 +1,20 @@
 ---
-title: 36 views of Tokyo 
+title: Triptychs
 layout: default
-permalink: /MyPrints/01_36views/
-image: /assets/images/DefaultIkkei.jpg
-description: 36 views of famous places in Tokyo
+permalink: /MyPrints/15Triptychs/
+image: /assets/images/15Triptychs/Ikkei_海運橋為換坐之図.jpg
+description: Miscellaneous prints
 complete: "No"
-printingdate: 1871
-series: 01_36viewsTokyo
+printingdate: unknown
+series: 15Triptychs
 ---
 
-# 36 views of Tokyo
+# Triptychs
 
+These are the Triptychs by Ikkei Shosai. 
 <table style="width:100%; border-collapse:collapse;">
 
-{% assign prints = site.Ikkei | where: "series", "01_36viewsTokyo" %}
+{% assign prints = site.Ikkei | where: "series", "15Triptychs" %}
 
 {% for post in prints %}
 
@@ -41,6 +42,7 @@ series: 01_36viewsTokyo
 <p> {{ post.notes }}</p>
 
 <p><strong>Source:</strong> {{ post.source }}</p>
+<p><strong>Date:</strong> {{ post.printing_date }}</p>
 </td>
 </tr>
 

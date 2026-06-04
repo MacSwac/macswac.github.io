@@ -6,6 +6,9 @@ permalink: /Ikkei/
 
 # The prints of Ikkei Shosai
 
+Most dates are taken from the Edo Tokyo Museum.
+
+
 <table style="width:100%; border-collapse:collapse;">
 
 {% for series in site.series %}

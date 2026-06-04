@@ -5,7 +5,7 @@ permalink: /MyPrints/03_36comic/
 image: /assets/images/0336comic/Ikkei2.jpg
 description: Scenes of funny things happening at famous places in  Tokyo
 complete: "No"
-printingdate: unknown
+printingdate: 1871-1872
 series: 03_36comicTokyo
 ---
 

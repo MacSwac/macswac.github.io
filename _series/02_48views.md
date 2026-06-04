@@ -5,7 +5,7 @@ permalink: /MyPrints/02_48views/
 image: /assets/images/0248views/Ikkei1.jpg
 description: A big series of 48 views of Tokyo
 complete: "No"
-printingdate: unknown
+printingdate: 1871
 series: 02_48viewsTokyo
 ---
 
